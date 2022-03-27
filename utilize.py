@@ -7,13 +7,13 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 from nltk.stem import WordNetLemmatizer
-from wordcloud import WordCloud
-from PIL import Image
-import matplotlib.pyplot as plt
-import seaborn as sns
+# from wordcloud import WordCloud
+# from PIL import Image
+# import matplotlib.pyplot as plt
+# import seaborn as sns
 # % matplotlib inline
 
-
+nltk.download('omw-1.4')
 nltk.download('stopwords')
 nltk.download('wordnet')
 
