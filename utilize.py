@@ -55,3 +55,19 @@ def words_preprocessing(tweet):
     norm_tokens = normalize_words(tokens)
     result_tokens = remove_stopwords(norm_tokens)
     return result_tokens
+
+def gen_dataframe(path):
+    def join_tokens(tokens):
+        return ' '.join(tokens)
+    # path = 'data/'
+    files = os.listdir(path)
+    df = pd.concat([pd.read_csv(path+f) for f in files], ignore_index=True)
+    df = df.drop_duplicates()
+    df = df[df['language']=='en']
+    df = df.reset_index(drop=True)
+
+    df = df[['date','tweet']]
+    df['cleaned_tweet'] = df['tweet'].apply(words_preprocessing)
+    df['cleaned_tweet'] = df['cleaned_tweet'].apply(join_tokens)
+
+    return df
