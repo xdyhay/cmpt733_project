@@ -131,4 +131,6 @@ dmypy.json
 
 #
 .DS_Store
+bert/model_best_bert/
+bert/runs/
 backup/
