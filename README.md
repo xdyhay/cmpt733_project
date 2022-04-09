@@ -43,14 +43,14 @@
 
 ### Install Modules
 
-First, set up virtual environment if necessary, and then install Python libraries from `requirements.txt`. The following uses conda as an example.
+First, set up a virtual environment if necessary, and then install Python libraries from `requirements.txt.` The following uses conda as an example.
 ```
 conda create --name myenv
 conda activate myenv
 pip3 install -r requirements.txt
 ```
 
-For furthue devlopment, simply activate the existing enviroment.
+For further development, simply activate the existing environment.
 ```
 conda activate myenv
 ```
