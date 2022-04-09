@@ -131,9 +131,5 @@ dmypy.json
 
 #
 .DS_Store
-bert/model_best_bert/*/config.json
-bert/model_best_bert/*/pytorch_model.bin
-bert/model_best_bert/*/special_tokens_map.json
-bert/model_best_bert/*/tokenizer_config.json
-bert/model_best_bert/*/vocab.txt
+bert/model_best_bert/**/
 backup/
