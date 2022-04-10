@@ -56,6 +56,22 @@ conda activate myenv
 ```
 
 
+### Data Collection &
+
+To perform the basic analysis, run the Jupyter notebook `basic_analysis.ipynb`. 
+
+The datasets used in the analysis include `conspiracy_theories_data.csv` in the root directory.
+
+
+
+### Basic Analysis
+
+To perform the basic analysis, run the Jupyter notebook `basic_analysis.ipynb`. 
+
+The datasets used in the analysis include `conspiracy_theories_data.csv` in the root directory.
+
+
+
 ### Sentiment Analysis
 
 To perform the sentiment analysis, run the Jupyter notebook `sentiment.ipynb`. 
