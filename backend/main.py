@@ -122,7 +122,7 @@ def test_model(test_data, model, tokenizer):
         
     return test_df_labeled['label'].tolist()
 
-def fake_news_det(news):
+def misleading_info_det(news):
 
     d = {'input_ids': [1], 'tidyTweet': [news]}
     df=pd.DataFrame(data=d)
