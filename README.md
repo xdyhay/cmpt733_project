@@ -58,10 +58,10 @@ conda activate myenv
 
 ### Sentiment Analysis
 
-To run the sentiment analysis
-```
-...
-```
+To perform the sentiment analysis, run the Jupyter notebook `sentiment.ipynb`. 
+
+The datasets used in the analysis include `conspiracy_theories_data.csv`, `month.xlsx`, `test_covid_data.csv`and `test_truckers_data.csv` in the root directory, `test_truckers_data_labeled.csv` and `test_covid_data_labeled.csv` in the `bert/model_best_bert/` folder.
+
 
 
 ### BERT Model
