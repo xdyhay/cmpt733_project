@@ -42,7 +42,6 @@ export default function Home() {
           })}
         </div>
       </main>
-      <hr></hr>
       <footer className={styles.footer}>
         <a
           href="https://github.com/xdyhayden/cmpt733_project"
