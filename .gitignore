@@ -133,3 +133,11 @@ dmypy.json
 .DS_Store
 bert/model_best_bert/**/
 backup/
+Web/detector_app/special_tokens_map.json
+Web/detector_app/config.json
+Web/detector_app/pytorch_model.bin
+Web/detector_app/result.csv
+Web/detector_app/test.csv
+Web/detector_app/tokenizer_config.json
+Web/detector_app/Untitled.md
+Web/detector_app/vocab.txt
