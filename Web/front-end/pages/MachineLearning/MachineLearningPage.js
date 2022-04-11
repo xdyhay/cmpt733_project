@@ -1,5 +1,5 @@
 import PageMeta from "../share/PageMeta";
-import { TailwindStyles } from "../share/TailwindStyles";
+import { TailwindStyles } from "../../components/TailwindStyles";
 import Navigation from "../share/Navigation";
 import react, { useState, useEffect } from "react";
 import RechartsCard from "../share/RechartsCard";
