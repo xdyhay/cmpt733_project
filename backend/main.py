@@ -140,7 +140,7 @@ def home():
 def predict():
     if request.method == 'POST':
         message = request.form['message']
-        pred = fake_news_det(message)
+        pred = misleading_info_det(message)
         print(pred)
         return render_template('index.html', prediction=pred)
     else:
