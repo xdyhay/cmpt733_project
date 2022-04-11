@@ -53,19 +53,18 @@ conda activate myenv
 ```
 
 
-### Data Collection &
+
+### Data Collection
+
+To collect the data on the daily basis, run the Jupyter notebook `collect_data.ipynb`. 
+
+
+
+### Data Exploration
 
 To perform the basic analysis, run the Jupyter notebook `basic_analysis.ipynb`. 
 
-The datasets used in the analysis include `conspiracy_theories_data.csv` in the root directory.
-
-
-
-### Basic Analysis
-
-To perform the basic analysis, run the Jupyter notebook `basic_analysis.ipynb`. 
-
-The datasets used in the analysis include `conspiracy_theories_data.csv` in the root directory.
+The datasets used in the analysis include `conspiracy_theories_data.csv` and `dataset.csv` in the root directory.
 
 
 
