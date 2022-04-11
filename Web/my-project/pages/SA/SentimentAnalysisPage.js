@@ -5,6 +5,12 @@ import PageCard from "../share/PageCard";
 export default function SAPage() {
   const SAContent = [
     {
+      imgPath: "/EDA/top10.png",
+      title: "Top 10 Negative Sentiment Twitter Hashtags",
+      description:
+        "#fakevirtuesignalers, #covidvaccineispoison, #cdcfraud, #covideugenicgenocide, #trumpcovidgenocide, #beijingvirus, #chinavirus, #depopulationagenda, #depopulation, #pfizergate are 10 hashtags that contain most negative sentiment tweet.",
+    },
+    {
       imgPath: "/SA/percent.png",
       title: "Percentage Distribution of Flair Score and Vader Score",
       description:
