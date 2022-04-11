@@ -97,5 +97,10 @@ In the Jupyter notebook `lstm/lstm.ipynb`, we train an LSTM prediction model to 
 
 The training model with best performance will be saved in `lstm` folder, and the metrics to evaluate model for each epoch will be stored in `lstm/lstm_train.txt` file.
 
-### Graph
+### How to run our misinformation detector(cmpt733_project/Web/detector_app/)
+
+1. Download our models from: https://drive.google.com/drive/folders/1CHSfRisOBbB64FtCQPULEBVMboTZ1hIH (Please download all files)
+2. Put the downloaded model files, ```main.py``` and ```templates``` in the same directory.
+3. Run main.py: ```python main.py```
+4. Follow the link shown to http://127.0.0.1:5000/ and you're ready to use our misinformation detector!
 
