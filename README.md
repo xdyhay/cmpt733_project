@@ -23,25 +23,18 @@
 │   ├── lstm.ipynb                      # LSTM model source code
 │   ├── *_result.csv                    # Labeled test dataset
 │   └── ...
-├── sentiment_graph
-│   └── ...
 ├── truckers_data
 │   └── ...
 ├── basic_analysis.ipynb
 ├── collect_data.ipynb
 ├── conspiracy_theories_data.csv
 ├── covid_data.csv
-├── data_collection.py
 ├── dataset.csv
-├── hashtag_list.txt
 ├── merge_data.ipynb
-├── merged_data.csv
-├── merged_data_all.csv
 ├── month.xlsx
 ├── sentiment.ipynb
 ├── test_covid_data.csv
 ├── test_truckers_data.csv
-├── truckers_data.csv
 └── README.md
 ```
 
