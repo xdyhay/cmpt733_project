@@ -93,10 +93,14 @@ tokenizer = BertTokenizer.from_pretrained(path)
 
 ### LSTM Model
 
-```
-...
-```
+In the Jupyter notebook `lstm/lstm.ipynb`, we train an LSTM prediction model to predict whether a tweet contains conspiracy theories. It trains Word2Vec Embedding with Gensim and use the trained embedding vector in embedding layer of LSTM Model.
 
+The training model with best performance will be saved in `lstm` folder, and the metrics to evaluate model for each epoch will be stored in `lstm/lstm_train.txt` file.
 
-### Graph
+### How to run our misinformation detector(cmpt733_project/Web/detector_app/)
+
+1. Download our models from: https://drive.google.com/drive/folders/1CHSfRisOBbB64FtCQPULEBVMboTZ1hIH (Please download all files)
+2. Put the downloaded model files, ```main.py``` ,```static``` and ```templates``` in the same directory.
+3. Run main.py: ```python main.py```
+4. Follow the link shown to http://127.0.0.1:5000/ and you're ready to use our misinformation detector!
 
