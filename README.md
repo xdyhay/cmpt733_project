@@ -11,7 +11,7 @@
 │   │   │── train_stats                 # Training stats
 │   │   └── ...
 │   │── bert.ipynb                      # BERT model source code
-├── backend
+├── Web                                 
 │   ├── main.py                         # Misinformation detector back-end
 ├── conspiracy_theories_data
 │   └── ...
