@@ -8,7 +8,7 @@ export default function Home() {
     {
       comp_href: "/EDA/EDAPage",
       title: "EDA",
-      description: "Exploratory analysis of our project data",
+      description: "Exploratory analysis of our data",
     },
     {
       comp_href: "/SA/SentimentAnalysisPage",
@@ -27,7 +27,8 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className="text-blue-600 text-6xl">Welcome to our project!</h1>
         <p className="text-slate-600 hover:text-sky-400">
-          Here is the structure of our project
+          a Study of Sentiment Analysis and Relationships with Specific Hot
+          Social Events
         </p>
         <div className={styles.grid}>
           {homeCardContent.map((card) => {
