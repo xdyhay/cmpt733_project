@@ -93,10 +93,9 @@ tokenizer = BertTokenizer.from_pretrained(path)
 
 ### LSTM Model
 
-```
-...
-```
+In the Jupyter notebook `lstm/lstm.ipynb`, we train an LSTM prediction model to predict whether a tweet contains conspiracy theories. It trains Word2Vec Embedding with Gensim and use the trained embedding vector in embedding layer of LSTM Model.
 
+The training model with best performance will be saved in `lstm` folder, and the metrics to evaluate model for each epoch will be stored in `lstm/lstm_train.txt` file.
 
 ### Graph
 
