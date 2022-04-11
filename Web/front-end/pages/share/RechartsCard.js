@@ -1,5 +1,5 @@
 import React from "react";
-import { TailwindStyles } from "./TailwindStyles";
+import { TailwindStyles } from "../../components/TailwindStyles";
 import {
   ResponsiveContainer,
   AreaChart,

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import axios from "axios";
-import { TailwindStyles } from "./TailwindStyles";
+import { TailwindStyles } from "../../components/TailwindStyles";
 export default function Navigation() {
   const router = useRouter();
   const navigationContents = [

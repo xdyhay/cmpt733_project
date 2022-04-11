@@ -1,7 +1,7 @@
 import PageMeta from "./share/PageMeta";
 import styles from "../styles/Home.module.css";
 import HomePageCard from "./share/HomePageCard";
-import { TailwindStyles } from "./share/TailwindStyles";
+import { TailwindStyles } from "../components/TailwindStyles";
 
 export default function Home() {
   const homeCardContent = [
@@ -42,7 +42,6 @@ export default function Home() {
           })}
         </div>
       </main>
-      <hr></hr>
       <footer className={styles.footer}>
         <a
           href="https://github.com/xdyhayden/cmpt733_project"
