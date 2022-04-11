@@ -13,7 +13,7 @@ import {
 export default function RechartsCard(props) {
   return (
     <div className={TailwindStyles.recahrtsCard}>
-      <ResponsiveContainer className="h-4/6" height={350}>
+      <ResponsiveContainer className="h-5/6" height={350}>
         <AreaChart
           data={props.data}
           //   height={1000}
@@ -56,9 +56,9 @@ export default function RechartsCard(props) {
       </ResponsiveContainer>
       <div className="px-6 py-4">
         <div className={TailwindStyles.pageCardTitle}>{props.title}</div>
-        <p className={TailwindStyles.pageCardDescription}>
+        {/* <p className={TailwindStyles.pageCardDescription}>
           {props.description}
-        </p>
+        </p> */}
       </div>
     </div>
   );

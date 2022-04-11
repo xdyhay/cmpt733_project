@@ -5,7 +5,7 @@ import PageCard from "../share/PageCard";
 export default function EDAPage() {
   const EDAContent = [
     {
-      imgPath: "/EDA/top_50_most_frequent_tokens.png",
+      imgPath: "/EDA/Top50_tokens.png",
       title: "Top 50 Most Frequent Tokens(Word) for All Data",
       description:
         "The top 50 most frequent tokens from tweet text suggest that COVID and Donald Trump are two important themes in the dataset, given the presence of 'covid', 'trump', 'mask', and 'vaccine'. ",
@@ -13,7 +13,8 @@ export default function EDAPage() {
     {
       imgPath: "/EDA/Top50_tokens_label1.png",
       title: "Top 50 Most Frequent Tokens(Word) for Conspiracy data",
-      description: "Description Needed",
+      description:
+        "The top 50 most common words in the tweets containing conspiracy theories are highly related to the COVID-19. The words 'covid', 'vaccine', 'lab' and 'virus' take more percentage in those tweets.",
     },
     {
       imgPath: "/EDA/wordcloud.png",
@@ -24,7 +25,8 @@ export default function EDAPage() {
     {
       imgPath: "/EDA/wordcloud_label1.png",
       title: "Word Cloud for Conspiracy data",
-      description: "Description Needed",
+      description:
+        "The words 'people', 'covid', 'world', 'vaccine' are larger and bolder. Those words are the most popular in conspiracy theories tweets.",
     },
   ];
 

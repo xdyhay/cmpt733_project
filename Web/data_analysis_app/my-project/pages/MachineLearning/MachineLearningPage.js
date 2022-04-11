@@ -105,7 +105,7 @@ export default function MachineLearningPage() {
           data={BertData}
           keyOne={"Training Loss"}
           keyTwo={"Testing Loss"}
-          title={"Bert Training Loss vs Testing Accuracy"}
+          title={"Bert Training Loss vs Testing Loss"}
           xAxisKey={"epoch"}
           description={"Debug Message"}
           yAxisDomain={[0, 0.02]}
@@ -113,39 +113,19 @@ export default function MachineLearningPage() {
         />
         <RechartsCard
           data={BertData}
-          keyOne={"Testing Loss"}
+          keyOne={"Training Accuracy"}
           keyTwo={"Testing Accuracy"}
-          title={"Bert Testing Loss vs Testing Accuracy"}
+          title={"Bert Training Accuracy vs Testing Accuracy"}
           xAxisKey={"epoch"}
           description={"Debug Message"}
-          yAxisDomain={[0, 0.02]}
-          reverseArea={false}
-        />
-        <RechartsCard
-          data={BertData}
-          keyOne={"Training F-1 Score"}
-          keyTwo={"Testing F-1 Score"}
-          title={"Bert Training F-1 Score vs Testing F-1 Score"}
-          xAxisKey={"epoch"}
-          description={"Debug Message"}
-          yAxisDomain={[0.65, 1]}
-          reverseArea={false}
-        />
-        <RechartsCard
-          data={LstmData}
-          keyOne={"Validation Accuracy"}
-          keyTwo={"Training Loss"}
-          title={"LSTM Training Loss vs Testing Accuracy"}
-          xAxisKey={"epoch"}
-          description={"Debug Message"}
-          yAxisDomain={[0, 1]}
+          yAxisDomain={[0.7, 1]}
           reverseArea={false}
         />
         <RechartsCard
           data={LstmData}
           keyOne={"Validation Accuracy"}
           keyTwo={"Training Accuracy"}
-          title={"LSTM Training Loss vs Testing Accuracy"}
+          title={"LSTM Training Accuracy vs Testing Accuracy"}
           xAxisKey={"epoch"}
           description={"Debug Message"}
           yAxisDomain={[0.5, 1]}

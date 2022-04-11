@@ -50,12 +50,14 @@ export default function SAPage() {
     {
       imgPath: "/SA/covid_result.png",
       title: "Predicted Label for Covid Tweets",
-      description: "this is descrpition",
+      description:
+        "The prediction of the COVID19 related Tweets shows there are some Tweets contain conspiracy theories that might make people feel scared and confused, though the most of them do not contain that.",
     },
     {
       imgPath: "/SA/covid_senti_pred.png",
       title: "Sentiment Analysis for Covid Tweets",
-      description: "this is descrpition",
+      description:
+        "Here are the results of analyzing the sentiment of Tweets related to COVID-19. From the results, the negative sentiment accounts for the majority, and regardless of the label of the model classification, the proportion of negative sentiment in the two classes is similar.",
     },
     {
       imgPath: "/SA/truckers_calendar.png",
@@ -72,12 +74,14 @@ export default function SAPage() {
     {
       imgPath: "/SA/truckers_result.png",
       title: "Predicted Label for Truckers Movement Tweets",
-      description: "this is descrpition",
+      description:
+        "The prediction of the Truckers for Freedom related Tweets shows there are some Tweets contain conspiracy theories that might make people feel scared and confused, though the most of them do not contain that.",
     },
     {
       imgPath: "/SA/truckers_senti_pred.png",
       title: "Sentiment Analysis for Truckers Movement Tweets",
-      description: "this is descrpition",
+      description:
+        "Here are the results of analyzing the sentiment of Tweets related to the Truckers Movement. The negative sentiment made up most of the tweets classified as misleading information. On the contrary, among the Tweets classified as non-misleading information, the proportion of positive sentiment accounted for 43.3%.",
     },
   ];
 
