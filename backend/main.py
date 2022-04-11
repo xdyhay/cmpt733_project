@@ -1,4 +1,3 @@
-
 from flask import Flask, render_template, request
 from transformers import BertTokenizer, BertForSequenceClassification
 from torch.utils.data import DataLoader
