@@ -14,8 +14,9 @@ export default function Navigation() {
     },
     {
       position: "end",
-      href: "/MachineLearning/MachineLearningPage",
-      navigationName: "Machine Learning",
+      // href: "/MachineLearning/MachineLearningPage",
+      href: "/NLP/NLPPage",
+      navigationName: "NLP",
     },
   ];
   function determineNavigationPositionClass(element) {

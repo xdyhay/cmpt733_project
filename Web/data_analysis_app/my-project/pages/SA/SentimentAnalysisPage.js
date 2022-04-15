@@ -5,83 +5,41 @@ import PageCard from "../share/PageCard";
 export default function SAPage() {
   const SAContent = [
     {
-      imgPath: "/EDA/top10.png",
+      imgPath: "/graph_1/vader_flair_2.png",
+      title: "Percentage Differences between Sentiment Labels: Vader vs Flair",
+      description:
+        "We found that Vader classified most of the data as 0, overall, the sentiment scores are more evenly distributed compared with Flair. ",
+    },
+    {
+      imgPath: "/graph_1/vader_flair_1.png",
+      title: "Distribution of Sentiment Scores: Vader vs Flair",
+      description:
+        "Flair not only computed more ‘negative’ labels but also more polarized scores. The lack of 0 rounded scores in Flair is because Flair was trained mainly on extreme reviews in order to avoid the middle reviews, having much variability in people’s sentiments, which contain too few useful contents for the learning of models.",
+    },
+    {
+      imgPath: "/graph_1/negative_hashtags.png",
       title: "Top 10 Negative Sentiment Twitter Hashtags",
       description:
-        "#fakevirtuesignalers, #covidvaccineispoison, #cdcfraud, #covideugenicgenocide, #trumpcovidgenocide, #beijingvirus, #chinavirus, #depopulationagenda, #depopulation, #pfizergate are 10 hashtags that contain most negative sentiment tweet.",
+        "#fakevirtuesignalers, #covidvaccineispoison, #cdcfraud, #covideugenicgenocide, #trumpcovidgenocide, #beijingvirus, #chinavirus, #depopulationagenda, #depopulation, #pfizergate are ten hashtags that contain the most negative sentiment tweets. It is obvious that most of those hashtags are associated with the covid-19, which is inseparable from the inconvenience and losses caused by the pandemic.",
+    },
+
+    {
+      imgPath: "/graph_1/average&std.png",
+      title: "Daily Sentiment Scores Mean and Standard Deviation ",
+      description:
+        "It is obvious to see from this graph that basically all the sentiment scores’ average are minus numbers, but in the meantime the standard sentiment scores indicate that the variation of the mean scores is not apparent crossing timeline. We also can’t find a clear pattern of the average sentiment score over time.",
     },
     {
-      imgPath: "/SA/percent.png",
-      title: "Percentage Distribution of Flair Score and Vader Score",
+      imgPath: "/graph_1/calender.png",
+      title: "Calendar heat map for Mean Sentiments Scores",
       description:
-        "Vader uses rule-based models, while Flair uses word-embedding-based models. In this graph we can observe that Flair labeled more ‘negative’ sentiment compared with Vader. ",
+        "The dates with the darkest colorings presented in Fig7 are January 26th, 2022  and March 10th, 2022, which means that these days had the most negative tweets posted on average. Additionally, the negative sentiment tweets are less common on Saturday as the colors are  relatively lighter compared to other weekdays.",
     },
     {
-      imgPath: "/SA/distribution.png",
-      title: "Distribution of Flair Score and Vader Score",
+      imgPath: "/graph_1/dependence.png",
+      title: "Conspiracy Breakdown per Sentiment ",
       description:
-        "We found that Vader classified most of the data as 0 sentiment score, while Flair generated more extreme scores: most of the data were classified as nearly -1 sentiment score with no data was classified as 0.",
-    },
-    {
-      imgPath: "/SA/conspiracy_calendar.png",
-      title: "Conspiracy Data Calendar View",
-      description:
-        "The darkest colorings around January  24th  and February 7th  that these days had more negative sentiment tweets posited across the respective month. The pattern in cell colors across weekdays also shows that negative sentiment tweets are less common on Saturday.",
-    },
-    {
-      imgPath: "/SA/conspiracy_mean&std.png",
-      title:
-        "Mean and Standard Deviation of Sentiment Score for Conspiracy Data",
-      description:
-        "However, from the study of mean and standard deviation of all the conspiracy data we cannot find a clear data pattern of the average sentiment score over time with no obvious outliers.",
-    },
-    {
-      imgPath: "/SA/covid_calendar.png",
-      title: "Covid Data Calendar View",
-      description:
-        "The negative tweets are being less commonly observed during March. Notably, when the time comes to Saturday, we can oberserve the mean sentiment scores are also being observed with a lighter color compared to other weekdays in general.",
-    },
-    {
-      imgPath: "/SA/covid_mean&std.png",
-      title: "Covid Data's Mean and Standard Deviation of Sentiment Score",
-      description:
-        "Besides, the average sentiment score of most days is still negative, except some specific dates like February 27th and February 20th has positive mean score. ",
-    },
-    {
-      imgPath: "/SA/covid_result.png",
-      title: "Predicted Label for Covid Tweets",
-      description:
-        "The prediction of the COVID19 related Tweets shows there are some Tweets contain conspiracy theories that might make people feel scared and confused, though the most of them do not contain that.",
-    },
-    {
-      imgPath: "/SA/covid_senti_pred.png",
-      title: "Sentiment Analysis for Covid Tweets",
-      description:
-        "Here are the results of analyzing the sentiment of Tweets related to COVID-19. From the results, the negative sentiment accounts for the majority, and regardless of the label of the model classification, the proportion of negative sentiment in the two classes is similar.",
-    },
-    {
-      imgPath: "/SA/truckers_calendar.png",
-      title: "Trucker Data Calendar View",
-      description:
-        "During the beginning and ending stage of the event, the contents of tweets tend to be more rational, which means the number of negative and positive tweets is roughly the same. However, in the middle stage of the event, the sentiment tends to be aggressive: obviously more people are commenting with negative attitudes.",
-    },
-    {
-      imgPath: "/SA/truckers_mean&std.png",
-      title: "Trucker Data's Mean and Standard Deviation of Sentiment Score",
-      description:
-        "There is a clearly strong fluctuation of mean sentiment score for truckers’ freedom related hashtags, where February 15th had the worst score of sentiment and March 7th got the highest positive score by contrary. The integral situation of mean sentiment score distribution is approximately identical under different  weekdays besides Wednesday and Sunday, which likely had more negative sentiment tweets.",
-    },
-    {
-      imgPath: "/SA/truckers_result.png",
-      title: "Predicted Label for Truckers Movement Tweets",
-      description:
-        "The prediction of the Truckers for Freedom related Tweets shows there are some Tweets contain conspiracy theories that might make people feel scared and confused, though the most of them do not contain that.",
-    },
-    {
-      imgPath: "/SA/truckers_senti_pred.png",
-      title: "Sentiment Analysis for Truckers Movement Tweets",
-      description:
-        "Here are the results of analyzing the sentiment of Tweets related to the Truckers Movement. The negative sentiment made up most of the tweets classified as misleading information. On the contrary, among the Tweets classified as non-misleading information, the proportion of positive sentiment accounted for 43.3%.",
+        "We noticed that conspiracy related tweets are more likely to be posted with a negative attitude than those conspiracy irrelevant tweets, however, the dependence between the two variables may still not be directly eyeballed only based on this figure. While the result in the Chi-squared test fills the vacancy. The null hypothesis in our test is that sentiment and conspiracy theory are independent, however, the p-value of the test is equal to 0.00000000003 means that we do not reject the null hypothesis at 95% level of confidence  so that the sentiment and conspiracy theory are dependent.",
     },
   ];
 

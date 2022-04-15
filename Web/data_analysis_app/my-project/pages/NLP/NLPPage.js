@@ -6,7 +6,7 @@ import RechartsCard from "../share/RechartsCard";
 import { BarChart, Bar } from "recharts";
 import PageCard from "../share/PageCard";
 // import data from "/ML/istm_train.json";
-export default function MachineLearningPage() {
+export default function NLPPage() {
   const SAContent = [
     {
       imgPath: "/graph_1/truckers_prediction_count.png",

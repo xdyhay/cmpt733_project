@@ -16,7 +16,8 @@ export default function Home() {
       description: "Sentiment insights about our data",
     },
     {
-      comp_href: "/MachineLearning/MachineLearningPage",
+      // comp_href: "/MachineLearning/MachineLearningPage",
+      comp_href: "/NLP/NLPPage",
       title: "Model",
       description: "Learn more about the models we used",
     },
