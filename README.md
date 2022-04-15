@@ -26,13 +26,14 @@
 │   └── ...
 ├── truckers_data
 │   └── ...
-├── basic_analysis.ipynb
 ├── collect_data.ipynb
 ├── conspiracy_theories_data.csv
 ├── covid_data.csv
+├── data_exploration.ipynb
 ├── dataset.csv
 ├── merge_data.ipynb
 ├── month.xlsx
+├── prediction_analysis.ipynb
 ├── sentiment.ipynb
 ├── test_covid_data.csv
 ├── test_truckers_data.csv
