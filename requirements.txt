@@ -18,3 +18,4 @@ tqdm==4.63.0
 transformers==4.17.0
 twint==2.1.21
 wordcloud==1.8.1
+scipy==1.5.2
