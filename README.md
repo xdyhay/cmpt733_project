@@ -63,9 +63,9 @@ To collect the data on the daily basis, run the Jupyter notebook `collect_data.i
 
 ### Data Exploration
 
-To perform the basic analysis, run the Jupyter notebook `basic_analysis.ipynb`. 
+To perform the data exploration, run the Jupyter notebook `data_exploration.ipynb`. 
 
-The datasets used in the analysis include `conspiracy_theories_data.csv` and `dataset.csv` in the root directory.
+The datasets used in the analysis include `dataset.csv` in the root directory.
 
 
 
@@ -73,7 +73,7 @@ The datasets used in the analysis include `conspiracy_theories_data.csv` and `da
 
 To perform the sentiment analysis, run the Jupyter notebook `sentiment.ipynb`. 
 
-The datasets used in the analysis include `conspiracy_theories_data.csv`, `month.xlsx`, `test_covid_data.csv`and `test_truckers_data.csv` in the root directory, `test_truckers_data_labeled.csv` and `test_covid_data_labeled.csv` in the `bert/model_best_bert/` folder.
+The datasets used in the analysis include `conspiracy_theories_data.csv`, `dataset.csv`, and `month.xlsx` in the root directory.
 
 
 
